@@ -22,3 +22,6 @@ Route::get('/login', 'LoginController@getLoginPage')->name('login');
 
 Route::get('/register', 'RegisterController@getRegisterPage')->name('register');
 Route::post('/submit-register', 'RegisterController@submitRegister')->name('submit-register');
+
+//admin
+Route::get('/add-post', 'AddPostController@getAddPostPage')->name('add-post');
